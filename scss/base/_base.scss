@@ -1,0 +1,42 @@
+body {
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 20px;
+	font-family: roboto_light;
+	color: rgb(84, 90, 110);
+	font-weight: normal;
+	margin: 12px 0 12px 0;
+}
+
+h5 {
+	color: rgb(140, 162, 180);
+  	font-size: 0.8em;
+  	font-family: roboto_light;
+  	font-weight: normal;
+  	margin: 8px 0 0 0;
+  	padding: 0;
+}
+
+footer {
+	height: 322px;
+	width: 100%;
+	background: url('../img/footer_img.png') repeat-x;
+}

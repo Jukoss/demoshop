@@ -1,0 +1,146 @@
+/*---------------------------------------------header-------------------*/
+.topHeader {
+	width: 100%;
+	height: 38px;
+}
+
+.language {
+	margin: 7px 0 0 25px;
+	width: 68px;
+	display: block;
+	float: left;
+
+	a { 
+		font-size: $fontSize;
+		font-family: roboto_light;
+		color: rgb(0, 41, 55);
+	}
+
+	.selected {
+		border-bottom: 2px solid #23d2fb;
+		margin-right: 24px;
+	}
+}
+
+
+.menu {
+	display: block;
+	margin: 0 0 0 173px;
+	width: 367px;
+	float: left;
+
+	li {
+		margin: 7px 0 0 25px;
+	}
+
+	a { 
+		font-size: $fontSize;
+		font-family: roboto_light;
+		color: $color-blue;
+	}
+}
+
+
+.phones {
+	width: 213px;
+	height: 16px;
+	background: url('../img/phone.png') no-repeat;
+	float: left;
+	margin: 8px 0 0 60px;
+	padding: 0 0 0 24px;
+	color: rgb(0, 41, 55);
+	font-size: 0.875em;
+	font-family: roboto_light;
+
+	.phone_space {
+		margin: 0 0 0 25px;
+	}
+}
+
+.user_panel {
+	width: 129px;
+	height: 17px;
+	margin: 7px 0 0 46px;
+	padding: 0 0 0 34px;
+	background: url('../img/signin.png') no-repeat;
+	float: left;
+
+	a {
+		font-size: 0.875em;
+		font-family: roboto_light;
+		color: $color-blue;
+		text-decoration: none;
+	}
+
+	span {
+		font-size: $fontSize;
+		font-family: roboto_light;
+		color: $color-blue;	
+	}
+}
+
+.logo {
+	width: 221px;
+	height: 30px;
+	float: left;
+	background: url('../img/logo.png');
+	margin: 26px 0 0 16px;
+}
+
+.search {
+	width: 370px;
+	height: 34px;
+	background: url('../img/searsh.png') no-repeat;
+	color: #000;
+	border: 2px solid #dfecf2;
+	border-radius: 4px;
+	padding-left: 15px;
+	padding-top: 5px;
+	float: left;
+	margin: 19px 31px 0 41px;
+}
+
+.search-input {
+	border: none;
+	width: 330px;
+}
+
+.search-submit {
+	padding-bottom: 4px;
+	border: none;
+	width: 30px;
+	background-color: rgba(140, 162, 180, 0);
+
+}
+
+.oclock {
+	margin: 30px 18px 0 0;
+	width: 24px;
+	display: block;
+	float: left;
+
+}
+
+.schedule {
+	width: 170px;
+	float: left;
+	margin: 13px 56px 0 0;
+}
+
+.basket {
+	width: 95px;
+	float: left;
+	background: url('../img/basket.png') no-repeat;
+	padding: 0 0 0 72px;
+	margin: 16px 0 0 0;
+	height: 56px;
+
+	h5 {
+		color: $color-gray;
+	  	font-size: $fontSize;
+	  	font-family: roboto_light;
+	  	font-weight: normal;
+	  	margin: 5px 0 0 0;
+	  	padding: 0;
+  	}
+}

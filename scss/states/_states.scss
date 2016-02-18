@@ -1,0 +1,123 @@
+/*header*/
+
+.menu {
+	a:hover {
+		color: #0b7ea5;
+	}
+}
+
+.search-input:focus {
+  outline: none;  
+}
+
+.search-submit {
+	outline: none;  
+}
+
+.sidebarItem:hover {
+	border-left: 2px solid #05b7f3;
+	background-color: #e0f3f8;
+	color: #0f151a;
+
+	ul { 
+	    display: block;
+	    float: none; 
+	    border-top: 1px solid #f2f6f8;
+	    background-color: #e0f3f8;
+
+	}
+}
+
+.sidebarItem {
+ 	ul li a:hover {
+		color: #0f151a;
+	}
+}
+
+.down {
+	li:hover {
+		float: none;
+	   	background-color: #fff;
+	  	border-left: 1px solid #f2f6f8;
+	}
+}
+
+.baner1:hover {
+	background: url('../img/baner1_fon.png') no-repeat;
+}
+
+.baner2:hover {
+	background: url('../img/baner2_fon.png') no-repeat;
+}
+
+.baner3:hover {
+	background: url('../img/baner3_fon.png') no-repeat;
+} 
+.previous:hover {
+	cursor: pointer;
+	background: url('../img/arrowright_hover.png') no-repeat;
+	
+}
+
+.next:hover {
+	cursor: pointer;
+	background: url('../img/arrowleft_hover.png') no-repeat;
+	
+} 
+.product:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2); 
+}
+
+
+.l-information a:hover { 
+	background: url('../img/buttonhover.png') no-repeat;
+}
+.a1:hover {
+	background: url('../img/watch_fon.png') no-repeat;
+}
+
+.a2:hover {
+	background: url('../img/user_fon.png') no-repeat;
+	margin: 0 0 0 20px;
+}
+
+.a3:hover {
+	background: url('../img/flag_fon.png') no-repeat;
+	margin: 50px 0 0 0;
+}
+
+.a4:hover {
+	background: url('../img/diamant_fon.png') no-repeat;
+	margin: 50px 0 0 20px;
+}
+
+.bulletleft:hover {
+	background: url('../img/bulletleft_fon.png') no-repeat;
+	
+}
+
+.bulletright:hover {
+	background: url('../img/bulletright_fon.png') no-repeat;
+}
+
+.news h2:hover {
+	font-size: 18px;
+	font-family: roboto_light;
+	color: #000;
+	font-weight: normal;
+	text-decoration: underline;
+	margin: 12px 0 12px 0;
+	cursor: pointer;
+}
+
+.bullets a:hover {
+  	text-decoration: underline;
+}
+
+.facebook:hover {
+	background: url('../img/facebook_fon.png')no-repeat;
+}
+
+.vk:hover {
+	background: url('../img/vk_fon.png') no-repeat;
+}

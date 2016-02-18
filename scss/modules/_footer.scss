@@ -1,0 +1,73 @@
+
+
+/*--------------------------foter--------------------------*/
+.bullets {
+	float: left;
+	padding-left: 15px;
+
+	div {
+		width: 258px;
+		float: left;
+		padding: 40px 23px 0 0;
+	}
+
+	li {
+		margin: 0 0 12px 0px;
+		padding-left: 18px;
+		float: none;
+		list-style-type: square;
+		color: #a4b1d7;
+	}
+
+	a {
+		color: #000;
+	  	font-size: $fontSize;
+	  	font-family: roboto_light;
+	  	font-weight: normal;
+	}
+}
+
+
+.menu_footer {
+	clear: both;
+	padding: 25px 0 0 0;
+	height: 57px;
+
+	.menu {
+		margin-left: 127px; 
+	}
+}
+
+.facebook {
+	width: 11px;
+	height: 21px;
+	background: url('../img/facebook.png')no-repeat;
+	float: left;
+	margin: 10px 0 0 8px;
+}
+
+.vk {
+	width: 22px;
+	height: 13px;
+	background: url('../img/vk.png') no-repeat;
+	float: left;
+	margin: 15px 0 0 30px;
+}
+
+.name {
+	float: left;
+
+	h5 {
+		color: rgb(168, 189, 208);
+		margin-top: 12px;
+	}
+}
+
+.autor {
+	float: right;
+
+	h5 {
+		color: rgb(168, 189, 208);
+		margin-top: 12px;
+	}
+}
